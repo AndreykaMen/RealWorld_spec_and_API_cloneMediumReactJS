@@ -14,13 +14,19 @@ For more information on how to this works with other frontends/backends, head ov
 
 ## Installation
 
-1. Instal [Node.JS](https://nodejs.org/en/download/package-manager/) latest version
+1. Install [Node.JS](https://nodejs.org/en/download/package-manager/) previous version 13.14.0
 2. Clone this repo
 3. Install dependencies, just run in project folder: `npm i` or `yarn`
 
 ## Usage
 
-1. run `npm start` to start server
+1. Doing database migrations `npm run db:migrate`
+
+2. Upload test data `npm run db:load`
+
+3. run `npm run dev` to start server
+
+4. In the frontend just change the API url to `const baseUrl = 'http://localhost:3000/api'`
 
 ## Testing
 
